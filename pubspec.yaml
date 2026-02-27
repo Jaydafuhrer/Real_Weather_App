@@ -1,0 +1,40 @@
+name: weather_app
+description: A polished Flutter weather app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+  http: ^1.1.0
+  geolocator: ^14.0.2
+  intl: ^0.20.2
+  cached_network_image: ^3.3.0
+  google_fonts: ^8.0.1
+  get_it: ^9.2.0
+  shared_preferences: ^2.2.2
+  dartz: ^0.10.1
+  lottie: ^3.1.0
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.10
+  anim_search_bar: ^2.0.3
+  glassmorphism: ^3.0.0
+  provider: ^6.1.2
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - .env
